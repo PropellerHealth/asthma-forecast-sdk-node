@@ -1,0 +1,40 @@
+{
+  "name": "asthma-forecast",
+  "version": "1.0.0",
+  "description": "Module for interfacing with Propeller Health's Asthma Forecasting Service",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node bin/cli.js",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PropellerHealth/asthma-forecast-sdk-node.git"
+  },
+  "keywords": [
+    "asthma",
+    "air quality",
+    "propeller",
+    "propeller health"
+  ],
+  "author": "Greg Tracy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PropellerHealth/asthma-forecast-sdk-node/issues"
+  },
+  "homepage": "https://github.com/PropellerHealth/asthma-forecast-sdk-node",
+  "dependencies": {
+    "async": "1.5.0",
+    "debug": "3.0.1",
+    "request": "2.67.0",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "mockery": "1.4.0"
+  },
+  "engines": {
+    "node": ">=4.2.2",
+    "npm": ">=2.14.7"
+  }
+}
