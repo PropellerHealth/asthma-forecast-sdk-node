@@ -1,6 +1,6 @@
 {
   "name": "asthma-forecast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module for interfacing with Propeller Health's Asthma Forecasting Service",
   "main": "index.js",
   "scripts": {
