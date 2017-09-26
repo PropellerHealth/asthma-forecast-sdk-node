@@ -7,7 +7,6 @@ var packageJson = require('./package.json');
 
 module.exports = function(options) {
 
-
 	var debug = function() {};
 	if(process.env.DEBUG) {
 	    try {
@@ -27,7 +26,7 @@ module.exports = function(options) {
 			timeout : 60000,
 			gzip : true,
 			headers : {
-				'User-Agent' : 'asthma-forecast@' + packageJson.version
+				'User-Agent' : 'asthma-forecast-sdk-node@' + packageJson.version
 			}
 		};
 		debug(params);
