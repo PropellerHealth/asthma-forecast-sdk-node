@@ -20,7 +20,7 @@ module.exports = function(options) {
 
 	var httpGet = function(uri, callback) {
 		var params = {
-			baseUrl : "https://mptyew8uk9.execute-api.us-west-2.amazonaws.com/prod/forecast",
+			baseUrl : "https://open.propellerhealth.com/prod/forecast",
 			uri : uri,
 			method : "GET",
 			timeout : 60000,
